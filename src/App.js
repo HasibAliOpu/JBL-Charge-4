@@ -9,7 +9,7 @@ import About from "./Components/About/About";
 import NotFound from "./Components/NotFound/NotFound";
 function App() {
   return (
-    <div className="">
+    <div>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

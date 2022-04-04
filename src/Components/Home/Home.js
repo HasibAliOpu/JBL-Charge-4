@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Review from "../Review/Review";
-import LoadReviews from "./../Hooks/LoadReviews";
+import useReviews from "../Hooks/useReviews";
 const Home = () => {
-  const [reviews, setReviews] = LoadReviews();
+  const [reviews, setReviews] = useReviews();
   return (
     <div>
       {/* homepage banner section */}
