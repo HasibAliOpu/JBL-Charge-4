@@ -9,10 +9,11 @@ import About from "./Components/About/About";
 import NotFound from "./Components/NotFound/NotFound";
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/blogs" element={<Blogs />} />
