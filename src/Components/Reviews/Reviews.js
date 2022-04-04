@@ -12,7 +12,7 @@ const Reviews = () => {
             Customer Reviews ({reviews.length}){" "}
           </span>
         </h1>
-        <div className="grid md:grid-cols-3 gap-10 ml-7 md:p-10">
+        <div className="grid md:grid-cols-3 gap-10 ml-7 p-10">
           {reviews.map((review) => (
             <Review key={review.id} review={review}></Review>
           ))}
