@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Monica Andrews",
+    "img": "https://randomuser.me/api/portraits/women/2.jpg",
+    "review": "If you like music of any subtlety, or anything other than monotonous edm, avoid. The reviews say grand. But all it has going for it is bass. Muddy and awful.",
+    "rating": 2
+  },
+  {
+    "id": 2,
+    "name": "Claude Pierce",
+    "img": "https://randomuser.me/api/portraits/men/51.jpg",
+    "review": "I have 3yo JBL Charge 3. Suddenly it stop charging. Contacted their Service Centre to find out where I can go to the get it repaired. I was advised no repair service available. Effectively once the warranty period is expired & if you have an issue just throw it out. The speakers aren't cheap too expensive to replace every couple of years especially when only used occasionally, Disappointing gone off JBL!",
+    "rating": 1
+  },
+  {
+    "id": 3,
+    "name": "Bonnie King",
+    "img": "https://randomuser.me/api/portraits/women/44.jpg",
+    "review": "Solid little unit. The sound is great. Doesn't rattle or sound bad at higher volume like my last portable Bluetooth speaker. I find it sounds great for music. Very punchy, good bass for such a small unit. I don't enjoy so much for listening to pod casts. I find it lacks a clarity when listening to voices and prefer to use my old TDK unit for that.",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Angel Bennett",
+    "img": "https://randomuser.me/api/portraits/men/7.jpg",
+    "review": "00% recommend this product! It is a good speaker that fills a very specific niche and a long battery span!. Resolution is good, but not great, which is expected for a waterproof and portable speaker in this price range. Overall, a decent device for the price!",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Jerry Henderson",
+    "img": "https://randomuser.me/api/portraits/men/11.jpg",
+    "review": "Very impressed by the sound quality. Very loud and crisp sound with great base. Also great battery life. Definitely worth the Monday. Got bose first but not Happy with the sound.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Ted Olson",
+    "img": "https://randomuser.me/api/portraits/men/86.jpg",
+    "review": "After a couple of years wouldn't turn on. Sound was good when it worked but why should it die so early? Really not worth the outlay if it has no staying power.",
+    "rating": 3
+  },
+  {
+    "id": 7,
+    "name": "Peter Holmes",
+    "img": "https://randomuser.me/api/portraits/men/31.jpg",
+    "review": "We borrowed a Charge 4 and found the sound to be awesome! However, I've since bought and returned 3 JBL Charge products in the last 2 months. They all had some sort of fault with the side bass radiators not working on the 1st one, to not charging (the 2nd) or not turning on at all once charged (the 3rd).Very disappointed. Will go for another brand and hope they are more reliable.",
+    "rating": 3
+  },
+  {
+    "id": 8,
+    "name": "Olivia Reid",
+    "img": "https://randomuser.me/api/portraits/women/79.jpg",
+    "review": "Anyone else on this forum experiencing unusually long charge times for this item? I'd plug it in, go to bed and when I wake up it's not yet fully charged. Barely seems to progress through the charging lights to full charge. In 8 hours it's not gone from 2-3 then 3-4 lights...",
+    "rating": 2
+  }
+]
