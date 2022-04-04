@@ -1,8 +1,11 @@
 import React from "react";
-
+import Review from "../Review/Review";
+import LoadReviews from "./../Hooks/LoadReviews";
 const Home = () => {
+  const [reviews, setReviews] = LoadReviews();
   return (
     <div>
+      {/* homepage banner section */}
       <div className="grid md:grid-cols-2">
         <div>
           <img
@@ -29,6 +32,17 @@ const Home = () => {
               20 hours of playtime...
             </p>
           </div>
+        </div>
+      </div>
+      {/* homepage review section */}
+      <div>
+        <h1 className="text-center text-4xl font-medium">
+          Customer Reviews ({reviews.length})
+        </h1>
+        <div className="grid md:grid-cols-3 gap-10 ml-7 md:p-10">
+          {reviews.map((review) => (
+            <Review key={review.id} review={review}></Review>
+          ))}
         </div>
       </div>
     </div>
