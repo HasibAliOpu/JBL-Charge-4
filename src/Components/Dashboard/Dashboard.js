@@ -52,7 +52,7 @@ const Dashboard = () => {
   ];
   return (
     <div>
-      <div className="my-10 flex justify-center w-full">
+      <div className="my-10 flex justify-center">
         <div>
           <h1 className="text-center text-3xl font-mono font-bold text-violet-700">
             MONTH WISE SELL
