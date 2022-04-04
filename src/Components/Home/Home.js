@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Review from "../Review/Review";
 import LoadReviews from "./../Hooks/LoadReviews";
 const Home = () => {
@@ -9,13 +10,13 @@ const Home = () => {
       <div className="grid md:grid-cols-2">
         <div>
           <img
-            src="https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwa2e7e786/JBL_Charge4_Blue_Hero-1605x1605px.png?sw=800&sh=800"
+            src="https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwa2e7e786/JBL_Charge4_Blue_Hero-1605x1605px.png"
             alt="speaker"
           />
         </div>
         <div className="flex justify-center items-center pl-6 md:p-0">
           <div className="">
-            <h1 className="text-5xl font-mono font-bold text-blue-500">
+            <h1 className="text-6xl font-mono font-bold text-blue-500">
               HEAR SOUND <br />{" "}
               <span className="text-yellow-400">ALL AROUND.</span>
             </h1>
@@ -35,7 +36,7 @@ const Home = () => {
         </div>
       </div>
       {/* homepage review section */}
-      <div>
+      <div className="mb-5">
         <h1 className="text-center text-4xl font-medium">
           Customer Reviews ({reviews.length})
         </h1>
@@ -44,6 +45,14 @@ const Home = () => {
             <Review key={review.id} review={review}></Review>
           ))}
         </div>
+        <span className="flex justify-center my-5 md:my-0">
+          <Link
+            to="/reviews"
+            className="bg-indigo-300 font-medium text-white hover:bg-indigo-600 px-8 py-2 rounded-full"
+          >
+            See All Reviews
+          </Link>
+        </span>
       </div>
     </div>
   );
