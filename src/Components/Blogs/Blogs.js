@@ -45,7 +45,7 @@ const Blogs = () => {
             </p>
             <ul className="list-disc">
               <li>The Element was like Inline Element</li>
-              <li>It's doesn't need a new Line</li>
+              <li>The Element doesn't start on a new Line</li>
               <li>You Can set Width or Height</li>
             </ul>
           </span>

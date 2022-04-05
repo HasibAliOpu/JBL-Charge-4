@@ -1,3 +1,4 @@
+import { StarIcon } from "@heroicons/react/solid";
 import React from "react";
 
 const Review = ({ review }) => {
@@ -17,8 +18,8 @@ const Review = ({ review }) => {
         </h1>
         <p className="font-medium">{reviews.slice(0, 200)}...</p>
         <p className=" font-semibold">
-          Rating: <span className="text-yellow-500 text-lg">({rating})</span>{" "}
-          Star
+          Rating: ({rating})
+          <StarIcon className="w-6 h-6 inline text-yellow-400"></StarIcon>
         </p>
       </div>
     </div>
